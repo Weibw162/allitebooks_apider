@@ -4,7 +4,7 @@ from lxml import etree
 import json
 
 
-class Taobao_spider(object):
+class Allitebooks_apider(object):
 
     def __init__(self):
 
@@ -140,4 +140,4 @@ class Taobao_spider(object):
 
         self.save_data(book_type_info_list)
 
-Taobao_spider().run()
+Allitebooks_apider().run()
