@@ -2,7 +2,7 @@
 爬取网址 www.allitebooks.com
 
 
-## version0[](https://www.baidu.com/)
+## version0
 
 使用requests库爬取，xpath进行解析，存入json文件。  
 
@@ -19,6 +19,10 @@ headers从headers_list中随机抽取，代理proxies直接在免费代理网站
 ## version2
 
 本版本继承上一版本，继续深入每本书的详情页，爬取每本书的详情信息。  
+
+## version3
+
+以上版本不能多页爬取，不能实现多进程爬取，以及代理失效等问题，应该在此版本解决（待写）
 
 
 
