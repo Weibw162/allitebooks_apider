@@ -4,7 +4,7 @@ from lxml import etree
 import json
 
 
-class Taobao_spider(object):
+class Allitebooks_apider(object):
 
     def __init__(self):
         self.url = "http://www.allitebooks.com/"
@@ -66,4 +66,4 @@ class Taobao_spider(object):
         # print(book_list)
         data = self.get_parse_xpath_onebook(book_list)
         self.save_data(data)
-Taobao_spider().run()
+Allitebooks_apider().run()
