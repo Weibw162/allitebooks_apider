@@ -2,7 +2,7 @@
 爬取网址www.allitebooks.com
 
 
-## version0
+## version0(https://www.baidu.com/)
 
 使用requests库爬取，xpath进行解析，存入json文件。  
 
