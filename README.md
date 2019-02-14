@@ -1,8 +1,8 @@
 # allitebooks_apider
-爬取网址www.allitebooks.com
+爬取网址 www.allitebooks.com
 
 
-## version0(https://www.baidu.com/)
+## version0[](https://www.baidu.com/)
 
 使用requests库爬取，xpath进行解析，存入json文件。  
 
